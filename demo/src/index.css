@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* #one
+{
+  width: 800px;
+  height: auto;
+} */
+
+/* ---------------------- Netflix --------------------- */
+
+h1
+{
+  text-align: center;
+  background-color: rgb(254, 108, 116);
+  margin: 0;
+  padding: 20px;
+}
+
+.parent
+{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  justify-content: space-around;
+
+}
+
+.container
+{
+  margin: 20px;
+  width: 400px;
+  border-radius: 10%;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.container:hover{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.container img
+{
+  width: 400px;
+  height: auto;
+  border-radius: 10% 10% 0% 0%;
+}
+
+.container h2
+{
+  text-align: center;
+}
+
+.container .Btn{
+  display: block;
+  width: 100%;
+}
+
+.container button{
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  outline: none;
+  transform: translateX(-50%);
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  left: 50%;
+  border-radius: 10px;
+  font-weight: 800;
+  border: none ;
+}
+
+.container button:hover{
+  background-color: rgb(254, 108, 116);
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
